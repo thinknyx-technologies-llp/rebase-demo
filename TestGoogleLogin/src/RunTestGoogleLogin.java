@@ -2,6 +2,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+/* 
+    rebase demo change in TTL Repo
+*/
+
 /**
  * @author Kulbhushan Mayer Thinknyx Technologies LLP
  */
@@ -52,7 +56,7 @@ public class RunTestGoogleLogin {
             // Wait a little bit (7000 milliseconds)
             Thread.sleep(15000);
 
-            // Check whether the h1 equals ìDashboardî
+            // Check whether the h1 equals ‚ÄúDashboard‚Äù
             if (webDriver.findElement(By.tagName("span")).getText()
                     .equals("Invalid Login or password.")) {
                 return true;
